@@ -1,0 +1,35 @@
+.o_kanban_left_vote {
+    width: 50px;
+    float: left;
+    border-right: 2px solid #ccc;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.o_kanban_left_vote .vote-divider {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%; 
+    border-left: 2px solid #ccc;
+}
+
+.o_kanban_left_vote .vote-buttons {
+    margin-top: 20px;
+}
+
+.o_kanban_left_vote .vote-buttons button {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.o_kanban_left_vote .vote-buttons i {
+    font-size: 20px;
+    color: black;
+}

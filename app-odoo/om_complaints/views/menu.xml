@@ -1,0 +1,9 @@
+<odoo>
+    <menuitem id="menu_complaint_root" name="شکایات" sequence="10"/>
+    <menuitem id="menu_complaint_registration" name="ثبت شکایت" parent="menu_complaint_root" sequence="1" action="om_complaints.action_complaint"/>
+    <menuitem id="menu_complaint_management" name="پنل ادمین" parent="menu_complaint_root" sequence="2"/>
+    <menuitem id="menu_complaint_admin" name="Admin" parent="menu_complaint_management" sequence="3"/>
+    <menuitem id="menu_complaint_ministry" name="وزارت خانه‌ها" parent="menu_complaint_admin" action="om_complaints.action_ministry"/>
+    <menuitem id="menu_complaint_institution" name="نهادها" parent="menu_complaint_admin" action="om_complaints.action_institution"/>
+    <menuitem id="menu_complaint_suggestion" name="پیشنهادها" parent="menu_complaint_admin" action="om_complaints.action_suggestion"/>
+</odoo>

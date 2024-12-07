@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_complaint_user,access_complaint_user,model_om_complaint_complaint,base.group_user,1,1,1,1
+access_ministry_user,access_ministry_user,model_om_complaint_ministry,base.group_user,1,1,1,1
+access_institution_user,access_institution_user,model_om_complaint_institution,base.group_user,1,1,1,1
+access_suggestion_user,access_suggestion_user,model_om_complaint_suggestion,base.group_user,1,1,1,1
+access_complaint_vote_user,access_complaint_vote_user,model_om_complaint_vote,base.group_user,1,1,1,1
